@@ -1,0 +1,10 @@
+https://nodejs.org/en
+
+after installing,
+in hyper terminal , type node --version
+
+node index.js //having console.log("hello world");
+
+
+
+

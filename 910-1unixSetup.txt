@@ -1,0 +1,10 @@
+download n install hyper from https://hyper.is/
+https://git-scm.com/
+
+copy contenets from
+https://gist.github.com/coco-napky/404220405435b3d0373e37ec43e54a23
+goto hyperterminal->edit->preferences and past the contenets
+
+in the hyper terminal, type echo $SHELL
+output => usr/bin/bash  should appear
+

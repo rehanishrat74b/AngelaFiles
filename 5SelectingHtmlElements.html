@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <a href="www.google1.com">Google</a>
+    <input class="btn" type="button" value="submit">
+
+    <ul id="List">
+        <li class="item">yahoo</li>
+        <li class="item"><a href="www.google.com"> Google </a></li>
+        <li class="item">gmail</li>
+    </ul>
+
+
+    <script>
+        document.querySelector("a") //it will select www.google1.com
+        document.querySelector("li a") // it will select www.google.com
+        document.querySelector("li.item") // it will list 3 ul items.
+        document.querySelector("#List a") // it will select www.google.com in ul
+
+        document.querySelector("#List .item") // it will select first list items
+        document.querySelectorAll("#List .item") // it will select all list items
+        document.querySelectorAll("#List .item")[2].style.color="blue"; // for single item, array index is used.
+        
+    </script>
+</body>
+</html>

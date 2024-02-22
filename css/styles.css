@@ -1,0 +1,15 @@
+body {
+    background-color: #C5FFF8;
+}
+hr{
+
+    border-color:grey;           
+    width:30%;
+    border-style: dotted; /*does not work with noshade property set to <hr noshade>*/
+   border-width: 5px;
+   border-bottom-style: none;
+  
+}
+h1,h3{
+    color: #5FBDFF;
+}

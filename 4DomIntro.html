@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/4DomIntro.css">
+</head>
+<body>
+    
+    <h1>Hello</h1>
+    <input type="checkbox" name="sendEmail" value="Send Email" id="idSendEmail"> Send Email
+
+    <ul>
+        <li>Blue</li>
+        <li>Black</li>
+        <li>White</li>
+    </ul>
+    <script>
+        alert ("changing h1 using first element child");
+        var heading=document.firstElementChild.lastElementChild.firstElementChild;
+        heading.innerHTML="Hello n Good Bye";
+        heading.style.color="red";
+        
+        alert ("clicking checkbox");
+        document.querySelector("input[name='sendEmail']").click();
+
+        alert("Changing List Item White To Gray");
+        document.querySelector("ul").lastElementChild.innerHTML="whiteToGrey";
+
+        alert("Changing 3rd li black color to purple");
+        document.getElementsByTagName("li")[2].style.color="purple";
+        <!-- getElementsByClassName also returns array
+             getElementById returns an object
+            -->
+    </script>
+</body>
+</html>

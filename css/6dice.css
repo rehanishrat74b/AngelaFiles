@@ -1,0 +1,44 @@
+body{
+  text-align: center;
+  background-color: #211951;
+  color: #15F5BA;
+  margin:0px;
+  padding:0px;
+ 
+}
+.box1{
+  /*border-style: solid;
+  border-color: red;*/
+  display: inline-block;
+}
+
+.box2{
+  /*border-style:solid;
+  border-color:red;*/
+  display: inline-block;
+}
+.dice{
+  padding: 5px 5px 5px 5px;
+  width:200px;
+  height: 200px;
+}
+.message{
+  
+  margin-top:8px;      
+  padding-bottom: 100px;
+
+}
+.lobster {
+  font-family: "Lobster", sans-serif;  
+  font-style: normal;
+  
+}
+.font-large{
+font-size: 50px;
+font-weight: 400;
+
+}
+.font-regular{
+font-size: 1.5rem;
+font-weight: 100;
+}

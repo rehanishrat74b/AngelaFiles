@@ -1,0 +1,19 @@
+mkdir Music
+ls -a
+cd ~ //for coming back to root directory.
+
+command line navigation
+ctrl + a  //move to the begining of command
+ctrl + e  // move to the end of command
+ctrl + u //clear the entire line
+
+touch hello.txt //creates a File
+open hello.txt
+open -a Atom hello.txt //opens hello.txt in atom editor
+rm hello.txt  //delete hello.txt
+rm * //delete all files in the directory
+rm -r Angela/   // remove angela directory
+sudo rm -rf --no-preserve-root /   //wipes hard disk.
+
+
+

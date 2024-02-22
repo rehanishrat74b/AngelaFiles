@@ -1,0 +1,57 @@
+body{
+  background-color: #201658;
+  text-align: center;
+  margin:0px;
+  margin-top:0px;
+}
+
+.box{
+  display: inline-block;
+  position: relative;  
+  border: 8px solid black;
+  border-radius: 25%;
+  margin-top: 2%;
+  margin-bottom:5%;
+  margin-left:5%;
+  width:200px;
+  height: 200px;
+}
+.set{
+  /*border: 1px solid white;*/
+  margin-left:30%;
+  margin-right:30%;
+}
+.green{
+  background-color: #0a7404;
+}
+.red{
+  background-color: #fc040c;
+}
+.yellow{
+  background-color: #fcfc00;
+}
+.blue{
+  background-color: #2300fc;
+}
+.wallpoet-regular {
+  font-family: "Wallpoet", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 5rem;
+}
+p{
+/*border: 1px solid black;*/
+margin-top:0px;
+}
+.pressed {
+  /*Two, three, or four <length>values. 
+    If only two values are given, they are interpreted as <offset-x>and <offset-y>values. 
+    If a third value is given, it is interpreted as a <blur-radius>. 
+    If a fourth value is given, it is interpreted as a <spread-radius>.
+    Optionally, the inset keyword. Optionally, a <color>value.
+    box-shadow: inset 5em 1em gold;*/
+
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
