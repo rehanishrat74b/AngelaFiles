@@ -1,0 +1,98 @@
+  font-family: 'helvetica neue';
+  font-family: "Arvo", cursive;
+  font-family: 'Lobster', cursive;
+  font-family: 'Indie Flower', cursive;
+  font-family: "Merriweather", serif;
+ font-family: "Wallpoet", sans-serif;
+
+ text-shadow: 3px 0 #DA0463;
+ text-decoration: underline dotted red;
+ text-decoration-color: rgb(255, 90, 255);
+ background: no-repeat url("../../media/examples/lizard.png");
+
+ background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.box{
+  display: inline-block;
+  position: relative;  
+  border: 8px solid black;
+  border-radius: 25%;
+  margin-top: 2%;
+  margin-bottom:5%;
+  margin-left:5%;
+  width:200px;
+  height: 200px;
+}
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #A683E3;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+.btn:active{
+  color: red;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
+select:focus {
+  background-color: ivory;
+}
