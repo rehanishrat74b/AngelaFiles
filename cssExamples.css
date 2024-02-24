@@ -4,7 +4,8 @@
   font-family: 'Indie Flower', cursive;
   font-family: "Merriweather", serif;
  font-family: "Wallpoet", sans-serif;
-
+ font-family: 'Press Start 2P', cursive;
+ 
  text-shadow: 3px 0 #DA0463;
  text-decoration: underline dotted red;
  text-decoration-color: rgb(255, 90, 255);
@@ -82,6 +83,17 @@ box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
+}
+.pressed {
+  /*Two, three, or four <length>values. 
+    If only two values are given, they are interpreted as <offset-x>and <offset-y>values. 
+    If a third value is given, it is interpreted as a <blur-radius>. 
+    If a fourth value is given, it is interpreted as a <spread-radius>.
+    Optionally, the inset keyword. Optionally, a <color>value.
+    box-shadow: inset 5em 1em gold;*/
+
+  box-shadow: 0 0 20px white;
+  background-color: grey;
 }
 input::placeholder {
   font-weight: bold;
