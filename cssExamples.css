@@ -5,14 +5,19 @@
   font-family: "Merriweather", serif;
  font-family: "Wallpoet", sans-serif;
  font-family: 'Press Start 2P', cursive;
- 
+   font-family: "Source Sans Pro", sans-serif;
  text-shadow: 3px 0 #DA0463;
  text-decoration: underline dotted red;
  text-decoration-color: rgb(255, 90, 255);
  background: no-repeat url("../../media/examples/lizard.png");
 
  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
 .drum {
   outline: none;
   border: 10px solid #404B69;
@@ -61,7 +66,17 @@ button {
   padding-bottom: 6px;
   border-width: 0;
 }
-
+ button {
+  appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #50a3a2;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+}
 
 input[type="text"] {
   text-align: center;
@@ -73,7 +88,20 @@ input[type="text"] {
   font-weight: 200;
   width: 313px;
 }
-
+input {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
 input[type="text"]:focus {
   outline: none;
   box-shadow: inset 0 -3px 0 0 #A683E3;
