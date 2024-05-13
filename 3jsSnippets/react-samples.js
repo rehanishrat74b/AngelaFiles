@@ -27,3 +27,10 @@ const notes = dataList.map(data => <Note title={data.title} content={data.conten
 const emojis = emojiList.map((emoji, index) => (
   <Emoji index={index} name={emoji.name} emoji={emoji.emoji} meaning={emoji.meaning} />
 ));
+
+//----------------------------------------
+//declarative vs imperative style
+document.getElementById("para").style.textDecoration = "line-through";
+
+const declarative = { textDecoration: "line-through" };
+<p style={declarative}>Hello using Declarative approach</p>
