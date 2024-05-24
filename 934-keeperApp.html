@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Keeper App</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/934-keeperApp.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Keeper</h1>
+    </header>
+
+    <section>
+      <div>
+        <form>
+          <input name="title" placeholder="Title" />
+          <textarea name="content" placeholder="Take a note..." rows="3"></textarea>
+          <button type="button">Add</button>
+        </form>
+      </div>
+    </section>
+
+    <section>
+      <div class="note">
+        <h1>My Title</h1>
+        <p>My content</p>
+        <button type="button">DELETE</button>
+      </div>      
+    </section>
+
+
+    <footer>
+      <p id="footer-text">Copyright ⓒ <span id="year"></span></p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
