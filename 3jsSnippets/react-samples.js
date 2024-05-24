@@ -13,10 +13,10 @@ return (
   </div>
 );
 
+///-------------------------------------------------------------
 
 
-
-//using arrow function
+///using arrow function
 import dataList from './notesData';
 /*const notes = dataList.map(data => {
   return <Note title={data.title} content={data.content} />;
@@ -34,3 +34,9 @@ document.getElementById("para").style.textDecoration = "line-through";
 
 const declarative = { textDecoration: "line-through" };
 <p style={declarative}>Hello using Declarative approach</p>
+
+///---------DELETE ITEM FROM STATE ARRAY.
+const [MyItems, setMyItems] = useState([]);
+function DeleteItem(id) {
+    setMyItems(e => { return e.filter((item, index) => { return index !== id }) });
+  }
