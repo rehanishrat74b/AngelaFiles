@@ -1,0 +1,58 @@
+body{
+  background-color: black;
+  color:white;
+  font-size: 3rem;
+}
+.Montserrat{
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+.sansserif {
+  font-family:  sans-serif;
+  font-style: normal;
+}
+
+.lobster{
+    font-family: "Lobster";    
+    font-style: normal;
+}
+
+.merriweather{
+  font-family: "Merriweather";
+  font-weight: 300;
+  font-style: normal;
+  /*font-weight: 700 Bold */
+}
+
+.roboto{
+  font-family: 'Roboto';
+}
+.Architect {
+  font-family: "Architects Daughter";
+}
+.Source {
+  /*font-family: "Source Sans Pro";*/
+  font-family: "Source Sans 3";
+}
+
+.Cursive{
+    font-family: cursive;
+}
+.Wallpoet {
+  font-family: "Wallpoet";
+}
+
+.Press {
+  font-family: 'Press Start 2P';
+}
+.Arvo {
+  font-family: "Arvo";
+}
+
+
+
+.Indie{
+ font-family: 'Indie Flower';
+}
+ 
