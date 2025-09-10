@@ -55,4 +55,10 @@ body{
 .Indie{
  font-family: 'Indie Flower';
 }
- 
+ .Titan {
+  font-family: 'Titan One', cursive;  
+}
+.GenMisc{
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+        helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+}
